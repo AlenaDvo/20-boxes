@@ -1,0 +1,28 @@
+.container {
+    border: solid 2px blue;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second.container {
+    background-color: orangered;
+}
+
+.smallbox {
+    /* background-color: blue; */
+    width: 45px;
+    height: 45px;
+    /* margin: 5px; */
+}
+
+.first > .smallbox {
+    background-color: blue;
+}
+
+.second > .smallbox {
+    background-color: darkmagenta;
+}
